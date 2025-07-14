@@ -1,7 +1,7 @@
 defmodule D6SystemRpi02.MixProject do
   use Mix.Project
 
-  @github_organization "d6monitoramento"
+  @github_organization "d6-monitoramento"
   @app :d6_system_rpi0_2
   @source_url "https://github.com/#{@github_organization}/#{@app}"
   @version Path.join(__DIR__, "VERSION")
