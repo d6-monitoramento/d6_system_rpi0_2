@@ -1,8 +1,17 @@
+<!--
+  SPDX-FileCopyrightText: 2018 Frank Hunleth
+  SPDX-FileCopyrightText: 2019 Justin Schneck
+  SPDX-FileCopyrightText: 2019 Matt Ludwigs
+  SPDX-License-Identifier: CC-BY-4.0
+-->
 # Raspberry Pi Zero 2 W and 3 A+ (64-bit)
 
 [![Hex version](https://img.shields.io/hexpm/v/nerves_system_rpi0_2.svg "Hex version")](https://hex.pm/packages/nerves_system_rpi0_2)
-[![CI](https://github.com/fhunleth/nerves_system_rpi0_2/actions/workflows/ci.yml/badge.svg)](https://github.com/fhunleth/nerves_system_rpi0_2/actions/workflows/ci.yml)
-[![REUSE status](https://api.reuse.software/badge/github.com/fhunleth/nerves_system_rpi0_2)](https://api.reuse.software/info/github.com/fhunleth/nerves_system_rpi0_2)
+[![CI](https://github.com/nerves-project/nerves_system_rpi0_2/actions/workflows/ci.yml/badge.svg)](https://github.com/nerves-project/nerves_system_rpi0_2/actions/workflows/ci.yml)
+[![REUSE status](https://api.reuse.software/badge/github.com/nerves-project/nerves_system_rpi0_2)](https://api.reuse.software/info/github.com/nerves-project/nerves_system_rpi0_2)
+
+*This is the `main` branch. If you are customizing a `v1.x` system, please see
+the `maint-v1.x` branch.*
 
 This is the base Nerves System configuration for the Raspberry Pi Zero 2 W with
 the USB port running in gadget mode. It is similar to
@@ -18,7 +27,7 @@ JIT](https://www.erlang.org/doc/apps/erts/beamasm).
 | CPU                  | 1.4 GHz quad-core ARM Cortex-A53 |
 | Memory               | 512 MB DRAM                      |
 | Storage              | MicroSD                          |
-| Linux kernel         | 6.1 w/ Raspberry Pi patches      |
+| Linux kernel         | 6.12 w/ Raspberry Pi patches     |
 | IEx terminal         | UART `ttyAMA0` Can be changed to HDMI |
 | GPIO, I2C, SPI       | Yes - [Elixir Circuits](https://github.com/elixir-circuits) |
 | ADC                  | No                               |
